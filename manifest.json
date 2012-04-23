@@ -2,7 +2,7 @@
     "name": "Basecamp Shortcut",
     "description": "Provides quick access to your Basecamp account.",
     "version": "1.1beta",
-    "launch_url": "main.html"
+    "launch_url": "main.html",
     "launch_container": "panel",  
     "icons": {
         "16": "icon_16.png",
