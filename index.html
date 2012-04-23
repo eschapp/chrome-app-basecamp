@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Chrome-app-basecamp by eschapp</title>
     
+    <link rel="chrome-app-basecamp" href="manifest.json">
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -33,6 +34,8 @@
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-    
+    <script>
+      chrome.app.install();
+    </script>
   </body>
 </html>
